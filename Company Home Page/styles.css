@@ -1,0 +1,106 @@
+html {
+    font-size: 16px;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+  }
+ 
+  h1 {
+    font-size: 5rem;
+  }
+  h2{
+    font-size: 3.5rem;
+  }
+  h4 {
+    font-size: 2.5rem;
+  }
+  li {
+    list-style: none;
+    display: inline-block;
+    width: 250px;
+  }
+  a {
+    color: black;
+    font-size: 2rem;
+    margin: 5px;
+  }
+  
+  .prompt-background {
+    height: 500px;
+    background-image: url("images/background-prompt.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    display: flex;
+    margin-top: 40px;
+  }
+  .prompt-description {
+    background-color: white;
+    margin: auto;
+    width: 100%;
+  }
+
+  .portfolio {
+    min-height: 500px;
+    margin: auto;
+    padding-top: 70px;
+  }
+  .portfolio-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .box img{
+    width: 300px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+  }
+  .box h4 {
+    min-width: 300px;
+    text-align: center;
+    padding: 5px;
+  }
+
+  .team {
+    padding-top: 35px;
+  }
+  .team-background {
+    background-image: url("images/team-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .team-member {
+    display: block;
+    max-width: 450px;
+    color: white;
+    height: 800px;
+    margin: 15px 0;
+  }
+  .team-member img {
+    height: 500px;
+    width: 300px;
+  }
+  .team-member h4 {
+    font-weight: 500;
+    max-width: 350px;
+  }
+
+  .copyright {
+    padding-top: 40px;
+  }

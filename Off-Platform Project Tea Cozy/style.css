@@ -1,0 +1,102 @@
+body {
+    background-color: black;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav img {
+    margin: 0 10px;
+    height: 50px;
+  }
+  .nav-links {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+  }
+  .nav-links a{
+    text-decoration: underline;
+    color: seashell;
+    font-size: 18px;
+  }
+  
+  .mission-div {
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .mission-div img {
+    position: absolute;
+    z-index: 1;
+  }
+  .mission-text-block {
+    z-index: 10;
+    position: absolute;
+    width: 100%;
+    top: 45%;
+    text-align: center;
+    background-color: black;
+  }
+  
+  .tea-block {
+    width: 1000px;
+    text-align: center;
+    margin-left: auto;
+    margin: 150px auto 0 auto;
+  }
+  .row{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .img-block img{
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  .img-block h4 {
+    font-size: 18px;
+    margin-top: 0;
+  }
+  
+  .locations-block {
+    text-align: center;
+    height: 500px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*krrjn1*_gcl_au*MTU1MDYzNTE3Mi4xNzQ0NzA1ODU2*_ga*MTkwNjY3ODg2Mi4xNzMxOTMwNDI0*_ga_3LRZM6TM9L*MTc0NTM5NDk1MC4yMS4xLjE3NDUzOTUyNjMuMC4wLjA.");
+  }
+  .locations-panel {
+    max-width: 1200px;
+    max-height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    gap: 40px;
+  }
+  .location-infos {
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+  }
+  
+  .contact {
+    text-align: center;
+    height: 200px;
+    margin: 0 auto;
+  }
+  .copyright {
+    margin-left: 20px;
+    text-align: left;
+  }
